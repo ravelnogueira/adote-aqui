@@ -1,0 +1,158 @@
+.caixa { 
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    background-color:rgb(63, 160, 57);
+    width: 100%;
+    height: 90px;
+}
+
+.logo {
+    margin-top: 25px;
+}
+
+
+.menu {
+    display: flex;   
+}
+
+
+.menu li { padding: 2px;
+    margin-right: 75px;
+    border: solid white 1px;
+    background-color: white;
+    text-transform: uppercase;
+    border-radius: 5px
+
+}
+
+body {
+    background-image: url(../Adote\ aqui/campo.jpg);
+    background-size: 100% 100%; 
+}
+
+h2 {
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-size: 44px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.texto1 {
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.up {
+    justify-content: space-around;
+    margin-top: 50px;
+    display: flex;
+}
+
+.up img {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 200px;
+    height: 200px;
+    padding: 15px;
+    border: solid 5px white;
+}
+
+.down {
+    justify-content: space-around;
+    margin-top: 50px;
+    display: flex;
+}
+
+.down img {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 200px;
+    height: 200px;
+    padding: 15px;
+    border: solid 5px white;
+}
+
+
+footer {
+        color: whitesmoke;
+        background-color: black;
+        border: 1px solid whitesmoke;
+        padding: 10px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        margin-top: 5vh;
+}
+
+li a:hover {
+    color: green;
+    font-size: 18px;
+    transition: 0.1s;
+}
+
+.up img:hover {
+    
+    border-color: green;
+    
+    transition: 0.7s;
+}
+
+.down img:hover {
+    border-color:green;
+    transition: 0.5s;
+}
+
+/*--parte mobile-- */
+
+@media (max-width:700px)  {
+    .caixa {
+        display: flex;
+        flex-direction: column;     
+        background-color:rgb(63, 160, 57);
+        width: 100%;
+        height: 12%;      
+ }
+
+    body {
+    background-image: url(../Adote\ aqui/campo.jpg);
+    background-size:inherit
+}
+ 
+    .up {
+        align-items: center;
+        flex-direction: column;  
+    }
+
+    .up img {
+        margin-top: 15px;
+    }
+
+    .down {
+        align-items: center;
+        flex-direction: column;  
+    }
+
+    .down img {
+        margin-top: 15px;
+    }
+
+    footer {
+        margin: 0%
+
+    }
+
+    li a:hover {
+        color: green;
+        font-size: 16px;
+        transition: 0.1s;
+    }
+}
+    
+
