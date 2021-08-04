@@ -2,7 +2,7 @@
     display: flex;
     justify-content:space-between ;
     align-items: center;
-    background-color:rgb(63, 160, 57);
+    background-color:rgba(8, 151, 0, 0.788);
     width: 100%;
     height: 90px;
 }
@@ -27,8 +27,7 @@
 }
 
 body {
-    background-image: url(../Adote\ aqui/campo.jpg);
-    background-size: 100% 100%; 
+  background-color: rgb(107, 187, 107);
 }
 
 h2 {
